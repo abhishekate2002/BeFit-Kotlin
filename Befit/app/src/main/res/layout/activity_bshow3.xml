@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.Shoulder.BSHOW3">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView69"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text=" Workout 3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView75"
+            style="@style/workoutname"
+            android:layout_width="371dp"
+            android:layout_height="107dp"
+            android:text="Leaning-away Dumbbell Lateral Raise"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="409dp"
+            android:layout_height="314dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView75"
+            app:srcCompat="@drawable/lateral_raise" />
+
+        <TextView
+            android:id="@+id/textView77"
+            style="@style/workoutname"
+            android:layout_width="365dp"
+            android:layout_height="187dp"
+            android:layout_marginStart="20dp"
+            android:text="How to do Leaning-away Dumbbell Lateral Raise"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+        <TextView
+            android:id="@+id/textView78"
+            style="@style/subheading"
+            android:layout_width="386dp"
+            android:layout_height="460dp"
+            android:layout_marginStart="16dp"
+            android:text="1) Hold a dumbbell in one hand, and stand beside a pole or sturdy piece of machinery (like a squat rack). Place your feet together, close to your anchor point, and grab the pole (with the hand closest to it)
+            \n2)Lean away from the pole, keeping a straight light from your ankles, hips, and shoulders.
+            \n3)Raise the dumbbell, laterally, to eye-level, then repeat. “Avoid collapsing at the hips, and swinging the weight rapidly or uncontrollably. Use a lighter weight if necessary,” Ventriglia says."
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="NEXT"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

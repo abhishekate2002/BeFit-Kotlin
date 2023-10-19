@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetRemainder">
+
+    <TextView
+        android:id="@+id/selectedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="08:35"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        android:textSize="32dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/selectTimeButton"
+        android:layout_width="422dp"
+        android:layout_height="79dp"
+        android:text="Select Time " />
+
+    <Button
+        android:id="@+id/setAlarmButton"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Set Alarm" />
+
+    <Button
+        android:id="@+id/cancelAlarmButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Cancel Alarm" />
+</LinearLayout>

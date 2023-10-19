@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.Biceps.BBICW1">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView69"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text=" Workout 1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView75"
+            style="@style/workoutname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EZ Bar Curls"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="409dp"
+            android:layout_height="314dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView75"
+            app:srcCompat="@drawable/ez_barbell_curls" />
+
+        <TextView
+            android:id="@+id/textView77"
+            style="@style/workoutname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="How to do EZ bar curls"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+        <TextView
+            android:id="@+id/textView78"
+            style="@style/subheading"
+            android:layout_width="390dp"
+            android:layout_height="841dp"
+            android:layout_marginStart="16dp"
+            android:text="1)Keep your elbows by your sides. Only your forearms should move.
+            \n2)Keep your body still. Do not sway your body or swing the EZ-curl bar.
+Compared with the barbell curl, the EZ bar curl reduces the pressure on your wrists. However, the camber (bend) of the EZ-curl bar must be minimal. The steeper the camber, the less emphasis you will place on your biceps brachii and the more emphasis you will place on your brachioradialis instead. Therefore, if a straight barbell doesn’t feel hard on your wrists, you can use that instead.
+            \n3)Your biceps brachii has a short (inner) head and a long (outer) head. The long head makes up the majority of the peak of your biceps, while the short head sits on the inner side. Using a regular (shoulder-width) grip when performing the EZ bar curl or barbell curl will place approximately equal emphasis on both heads. Using a narrow grip will emphasize the long head and build the peak of your biceps. Using a wide grip will emphasize the short head and give your biceps more width."
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="NEXT"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

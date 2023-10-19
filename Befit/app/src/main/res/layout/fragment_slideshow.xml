@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="441dp"
+            android:layout_height="288dp"
+            android:contentDescription="WorkoutHeaderImage"
+            android:src="@drawable/workoutequipment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/beginner_card"
+            android:layout_width="371dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#FFF9F1"
+            android:clickable="true"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Beginner"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="29dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="24dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Form week 1 to week 8"
+                    android:textAlignment="center"
+
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                <ImageView
+                    android:layout_width="171dp"
+                    android:layout_height="156dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/pexels_li_sun_2294361"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/average_card"
+            android:layout_width="371dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#FFF9F1"
+            android:clickable="true"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beginner_card">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Average"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="29dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="24dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Form week 9 to week 18"
+
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                <ImageView
+                    android:layout_width="171dp"
+                    android:layout_height="156dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/pexelsanushgorak1431282"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/advance_card"
+            android:layout_width="371dp"
+            android:layout_height="139dp"
+            android:backgroundTint="#FFF9F1"
+            android:clickable="true"
+            app:cardCornerRadius="25dp"
+            android:layout_marginTop="18dp"
+            app:cardElevation="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/average_card">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Advance"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="29dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="24dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Form week 17 to week 24"
+
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                <ImageView
+                    android:layout_width="171dp"
+                    android:layout_height="156dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/tumblr"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/advance_card"></TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

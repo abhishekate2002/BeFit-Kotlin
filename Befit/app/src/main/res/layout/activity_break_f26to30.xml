@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diet.breakfast.BreakF26to30">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView20"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Breakfast"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            style="@style/subheading"
+            android:layout_width="379dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="4dp"
+            android:text="Consider any 2 or all of these as item for your breakfast."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/wholeWheatCard"
+            style="@style/cardDes"
+            android:layout_width="371dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="18dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    style="@style/incardtext"
+                    android:layout_width="223dp"
+                    android:layout_height="193dp"
+                    android:text="Whole-wheat English muffin topped with 2 tablespoons natural peanut butter"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.571" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="146dp"
+                    android:layout_height="234dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.491"
+                    app:srcCompat="@drawable/toasted_whole_meat" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bananaslicedCard"
+            android:layout_width="371dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="18dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wholeWheatCard">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    style="@style/incardtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 1/2 small sliced banana"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/orangeJuiceCard"
+            android:layout_width="371dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="18dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bananaslicedCard">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    style="@style/incardtext"
+                    android:layout_width="212dp"
+                    android:layout_height="195dp"
+                    android:text=" 1 cup calcium- and vitamin D-fortified orange juice"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="157dp"
+                    android:layout_height="193dp"
+                    android:fitsSystemWindows="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.355"
+                    app:srcCompat="@drawable/orange_juice" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView26"
+            style="@style/footerText"
+            android:layout_width="364dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="18dp"
+            android:text="Folate: It's critical for supporting a healthy pregnancy, preventing neural-tube defects and helping your body make new cells. Folate may also help reduce the risk of heart disease. Eat foods such as chickpeas, asparagus, spinach, broccoli, avocados, orange juice, and fortified whole grains to help meet your daily 400-microgram requirement."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/orangeJuiceCard" />
+
+        <TextView
+            android:id="@+id/textView27"
+            style="@style/footerText"
+            android:layout_width="363dp"
+            android:layout_height="153dp"
+            android:layout_marginTop="18dp"
+            android:text="Phytonutrients: &quot;These compounds contain antioxidants, which slow the aging process, ward off heart disease, and prevent changes in DNA, potentially preventing the development of cancer,&quot; says Bonci. While phytonutrients come from plants, dark chocolate, red wine, and coffee are highest in them."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView26" />
+
+        <TextView
+            android:id="@+id/textView28"
+            style="@style/footerText"
+            android:layout_width="363dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="18dp"
+            android:text="Iron: When you don't get enough iron, you might feel physically drained and mentally exhausted. Researchers at Penn State University found that young women who were deficient in the mineral took longer and performed worse on cognitive tasks than those who had normal levels of iron.Get your daily dose of 18 milligrams from foods such as clams, lean beef, fortified breakfast cereal, soybeans, pumpkin seeds, and skinless poultry."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@id/textView27" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

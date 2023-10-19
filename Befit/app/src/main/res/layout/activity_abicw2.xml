@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.Biceps.ABICW2">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView69"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text=" Workout 1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView75"
+            style="@style/workoutname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seated Dumbell Curls"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="409dp"
+            android:layout_height="314dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView75"
+            app:srcCompat="@drawable/seated" />
+
+        <TextView
+            android:id="@+id/textView77"
+            style="@style/workoutname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="How to do  seated dumbell curls"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+        <TextView
+            android:id="@+id/textView78"
+            style="@style/subheading"
+            android:layout_width="363dp"
+            android:layout_height="579dp"
+            android:layout_marginStart="16dp"
+            android:text="1)Keeping your torso upright and upper arms by your sides, exhale as you flex one elbow to raise the dumbbell up towards your shoulder. As you raise the dumbbell, supinate your forearm so that, by the end of the movement (or ‘curl’), your palm is facing your shoulder.
+            \n2)After fully flexing your elbow, you may move your elbow forward a little until your forearm is vertical.
+Hold for a count of two and squeeze your biceps brachii.
+            \n3)Inhale as you slowly reverse the motion and return the dumbbell to the starting position.
+Repeat the same movement with your opposite arm.
+Repeat for the desired number of repetitions, alternating the arm that you use."
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="NEXT"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

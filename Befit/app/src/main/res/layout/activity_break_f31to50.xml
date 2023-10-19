@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diet.breakfast.BreakF31to50">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView29"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Breakfast"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView30"
+            style="@style/subheading"
+            android:layout_width="391dp"
+            android:layout_height="88dp"
+            android:text="Consider any 2 or all of these as item for your breakfast."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c1bfF31to50"
+            android:layout_width="371dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="18dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="206dp"
+                    android:layout_height="139dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/cereal" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    style="@style/incardtext"
+                    android:layout_width="163dp"
+                    android:layout_height="124dp"
+                    android:text="1 cup high-fiber cereal (such as bran flakes) with 1 cup 1-percent milk"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c2bfF31to50"
+            android:layout_width="371dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="18dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c1bfF31to50">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView35"
+                    style="@style/incardtext"
+                    android:layout_width="161dp"
+                    android:layout_height="118dp"
+                    android:text="1 cup blueberries"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="206dp"
+                    android:layout_height="152dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/blueberries" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c3bfF31to50"
+            android:layout_width="371dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="18dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c2bfF31to50">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView36"
+                    style="@style/incardtext"
+                    android:layout_width="161dp"
+                    android:layout_height="110dp"
+                    android:text="1 cup green tea"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="206dp"
+                    android:layout_height="145dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/green_tea" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView31"
+            style="@style/footerText"
+            android:layout_width="371dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="18dp"
+            android:text="Calcium: As you approach menopause, bone-building estrogen starts to decline and calcium becomes more important. Ironically, you absorb less calcium from the food you eat because your stomach doesn't make as much of the acid necessary for absorption. Aim for 1,000 milligrams a day from low-fat dairy, supplements, or a combination."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c3bfF31to50" />
+
+        <TextView
+            android:id="@+id/textView32"
+            style="@style/footerText"
+            android:layout_width="371dp"
+            android:layout_height="228dp"
+            android:layout_marginTop="18dp"
+            android:text="Vitamin D: This nutrient helps your body absorb calcium, keeps your immune system strong, protects against breast and colon cancers, and even prevents hearing loss. But by the time you reach your 40s, your vitamin D levels quickly start to plummet. &quot;There's no way to get enough vitamin D from your diet because very few foods contain it,&quot; says Bonci. Your best bet: a daily supplement of 600 to 1,000 international units."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+        <TextView
+            android:id="@+id/textView33"
+            style="@style/footerText"
+            android:layout_width="372dp"
+            android:layout_height="228dp"
+            android:layout_marginTop="18dp"
+            android:text="Vitamin D: This nutrient helps your body absorb calcium, keeps your immune system strong, protects against breast and colon cancers, and even prevents hearing loss. But by the time you reach your 40s, your vitamin D levels quickly start to plummet. &quot;There's no way to get enough vitamin D from your diet because very few foods contain it,&quot; says Bonci. Your best bet: a daily supplement of 600 to 1,000 international units."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

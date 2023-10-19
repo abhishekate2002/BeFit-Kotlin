@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.Back.IBW2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView69"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:text="Back Workout 2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView75"
+            style="@style/workoutname"
+            android:layout_width="372dp"
+            android:layout_height="90dp"
+            android:text="Standing lat pulled down"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="409dp"
+            android:layout_height="314dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView75"
+            app:srcCompat="@drawable/standing_lat_pulldown" />
+
+        <TextView
+            android:id="@+id/textView77"
+            style="@style/workoutname"
+            android:layout_width="390dp"
+            android:layout_height="151dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="How to do standing lat pulled down (3-4 sets, 10-12reps)
+"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+        <TextView
+            android:id="@+id/textView78"
+            style="@style/subheading"
+            android:layout_width="366dp"
+            android:layout_height="528dp"
+            android:layout_marginStart="16dp"
+            android:text="1)Stand in front of a lat pulldown machine with feet shoulder width apart.\n
+2)Grasp the bar with your palms shoulder width apart facing away from you and arms straight.
+\n3)Put one foot up on the edge of the seat, and lean back slightly with your other foot planted firmly on the floor.
+\n4)Brace your core, contract your back muscles to pull the bar until it reaches the tip of your rib cage.
+\n5)Pause for a count or two, squeeze your lats, and slowly return to the starting position.
+\n6)Maintain your core’s tightness and repeat!"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="NEXT"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</ScrollView>

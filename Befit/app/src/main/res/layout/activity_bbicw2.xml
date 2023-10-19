@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.Biceps.BBICW2">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView69"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text=" Workout 2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView75"
+            style="@style/workoutname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hammer Curls"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="409dp"
+            android:layout_height="314dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView75"
+            app:srcCompat="@drawable/hammer_curls" />
+
+        <TextView
+            android:id="@+id/textView77"
+            style="@style/workoutname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="How to do Hammer curls"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+        <TextView
+            android:id="@+id/textView78"
+            style="@style/subheading"
+            android:layout_width="373dp"
+            android:layout_height="1086dp"
+            android:layout_marginStart="16dp"
+            android:text="1)Start by using a weight that you can easily control for 2 or 3 sets of about 8 to 12 repetitions. Choose a weight that allows you to maintain good technique throughout all of the sets and repetitions that you will be doing.
+Pick up a pair of dumbbells and stand firmly with your feet shoulder-width apart and with a slight bend in your knees. Your posture should be standing tall with your shoulders squarely placed over your hips.
+            \n2)Try to maintain a neutral head and neck position. A good piece of advice is to tuck your chin down into your neck throughout the entire movement, as if you were trying to keep an egg safe under your chin.
+Stand firmly on the floor with your feet planted to create a stable foot position for your entire body. Your body weight should be evenly distributed between both legs.
+            \n3)While keeping your upper arms still, squeeze your bicep and bend your elbows until your lower arms touch your upper arms. The dumbbells should finish very close to your shoulders without actually touching your shoulders. Squeeze your biceps and pause for a few seconds at the top of the movement.
+Slowly straighten your elbows to return to the starting position and come to a complete stop at the bottom position before you attempt another repetition."
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="NEXT"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

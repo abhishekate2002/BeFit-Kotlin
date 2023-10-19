@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.Abs.AABSW3">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView72"
+            style="@style/workoutname"
+            android:layout_width="391dp"
+            android:layout_height="57dp"
+            android:text="2.Bicycle Cruches"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="376dp"
+            android:layout_height="306dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView72"
+            app:srcCompat="@drawable/bycle_crunches" />
+
+        <TextView
+            android:id="@+id/textView70"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="How to do bicycle crunches(15reps 2-3 sets)"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="383dp"
+            android:layout_height="444dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="1.Lie on your back on the floor (or, preferably, on a mat for some support). Press your lower back into the floor and bend knees while keeping feet flat on the floor.
+Place hands behind head, interlacing fingers if preferred. Keep elbows wide and gently cradle your head in your hands.
+              \n2.Bring your knees up, with shins parallel to the floor, as you lift shoulder blades off the floor. (Be careful not to strain or pull on your neck.)
+As you straighten left leg out at about a 45-degree angle, turn your upper body to the right, bringing left elbow toward right knee.
+               \n3.Return to center, with both knees bent and elbows wide.
+Repeat on the other side: Straighten right leg to a 45-degree angle and turn your upper body to the left, bringing right elbow toward left knee.
+               \n4.Return to the starting position to complete 1 rep."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="304dp"
+            android:text="NEXT"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView71" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

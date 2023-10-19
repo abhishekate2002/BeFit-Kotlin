@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.befit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Befit">
+        <activity
+            android:name=".workout.Shoulder.ASHOW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Shoulder.ASHOW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Shoulder.ASHOW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Shoulder.ISHOW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Shoulder.ISHOW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Shoulder.ISHOW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Shoulder.BSHOW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Shoulder.BSHOW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Shoulder.BSHOW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Biceps.ABICW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Biceps.ABICW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Biceps.ABICW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Biceps.IBICW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Biceps.IBICW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Biceps.IBICW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Biceps.BBICW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Biceps.BBICW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Biceps.BBICW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Abs.AABSW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Abs.AABSW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Abs.AABSW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Abs.IABSW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Abs.IABSW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Abs.IABSW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Abs.BABS3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Abs.BABS2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Abs.BABS1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Back.ABW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Back.ABW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Back.ABW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Back.IBW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Back.IBW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Back.IBW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Back.BBW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Back.BBW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Back.BBW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.ADCW03"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.ADCW02"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.ADCW01"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.AVCW03"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.AVCW02"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.AVCW01"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.BCW3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.BCW2"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.BCW1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.Chest.BC1"
+            android:exported="false" />
+        <activity
+            android:name=".workout.WorkoutSelector3"
+            android:exported="false" />
+        <activity
+            android:name=".workout.WorkoutSelector2"
+            android:exported="false" />
+        <activity
+            android:name=".diet.lunch.Lunch31to50"
+            android:exported="false" />
+        <activity
+            android:name=".diet.lunch.Lunch26to30"
+            android:exported="false" />
+        <activity
+            android:name=".diet.lunch.Lunch18to25"
+            android:exported="false" />
+        <activity
+            android:name=".diet.dinner.Dinner31to50"
+            android:exported="false" />
+        <activity
+            android:name=".diet.dinner.Dinner26to30"
+            android:exported="false" />
+        <activity
+            android:name=".diet.dinner.Dinner18to25"
+            android:exported="false" />
+        <activity
+            android:name=".diet.breakfast.BreakF31to50"
+            android:exported="false" />
+        <activity
+            android:name=".diet.breakfast.BreakF26to30"
+            android:exported="false" />
+        <activity
+            android:name=".diet.breakfast.BreakF18to25"
+            android:exported="false" />
+        <activity
+            android:name=".diet.age31to50"
+            android:exported="false" />
+        <activity
+            android:name=".diet.age26to30"
+            android:exported="false" />
+        <activity
+            android:name=".diet.age18to25"
+            android:exported="false" />
+        <activity
+            android:name=".workout.WorkoutSelector"
+            android:exported="false" />
+        <activity
+            android:name=".userAuth.Logout"
+            android:exported="false" />
+        <activity
+            android:name=".BlogPage"
+            android:exported="false" />
+        <activity
+            android:name=".BmiCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".userAuth.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".userAuth.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Destination"
+            android:exported="false" />
+        <activity
+            android:name=".SetRemainder"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Befit.NoActionBar" />
+
+        <receiver android:name=".AlarmReceiver" />
+    </application>
+
+</manifest>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.WorkoutSelector">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Workout"
+            android:textFontWeight="700"
+            android:textSize="36sp"
+            android:lineHeight="42.19px"
+            android:layout_marginStart="28dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="19dp"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/chestWorkoutCard"
+            android:layout_width="371dp"
+            android:layout_height="121dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:elevation="24dp"
+            app:cardCornerRadius="16dp"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linerlayout01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:elevation="26dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Chest"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="7dp"
+                        android:fontFamily="sans-serif"
+                        android:text="16 exercise"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif"
+                        android:text="52 minutes"
+                        android:textSize="14sp" />
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:layout_width="185dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="18dp"
+                        android:fadingEdgeLength="20dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="159dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="225dp"
+                    android:layout_marginEnd="24dp"
+                    android:src="@drawable/chestworkoutcard"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/linerlayout01"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/BicepsWorkoutCard"
+            android:layout_width="371dp"
+            android:layout_height="121dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:elevation="24dp"
+            app:cardCornerRadius="16dp"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:elevation="26dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Bisceps"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="7dp"
+                        android:fontFamily="sans-serif"
+                        android:text="16 exercise"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif"
+                        android:text="52 minutes"
+                        android:textSize="14sp" />
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:layout_width="185dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="8dp"
+                        android:fadingEdgeLength="20dp"
+                        android:layout_marginBottom="11dp"/>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="159dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="225dp"
+                    android:layout_marginEnd="24dp"
+                    android:src="@drawable/pngmage"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/shoulderWorkoutCard"
+            android:layout_width="371dp"
+            android:layout_height="121dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:elevation="24dp"
+            app:cardCornerRadius="16dp"
+            tools:ignore="DuplicateIds">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:elevation="26dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Shoulder"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="7dp"
+                        android:fontFamily="sans-serif"
+                        android:text="16 exercise"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif"
+                        android:text="52 minutes"
+                        android:textSize="14sp" />
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:layout_width="185dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="8dp"
+                        android:fadingEdgeLength="20dp"
+                        android:layout_marginBottom="11dp"/>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="159dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="225dp"
+                    android:layout_marginEnd="24dp"
+                    android:src="@drawable/shoulder"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout02"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/backWorkoutCard"
+            android:layout_width="371dp"
+            android:layout_height="121dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:elevation="24dp"
+            app:cardCornerRadius="16dp"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:elevation="26dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Back"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="7dp"
+                        android:fontFamily="sans-serif"
+                        android:text="16 exercise"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif"
+                        android:text="52 minutes"
+                        android:textSize="14sp" />
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:layout_width="185dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="8dp"
+                        android:fadingEdgeLength="20dp"
+                        android:layout_marginBottom="11dp"/>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="159dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="225dp"
+                    android:layout_marginEnd="24dp"
+                    android:src="@drawable/back"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout03"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/absWorkoutCard"
+            android:layout_width="371dp"
+            android:layout_height="121dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:elevation="24dp"
+            app:cardCornerRadius="16dp"
+           >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:elevation="26dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Abs"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="7dp"
+                        android:fontFamily="sans-serif"
+                        android:text="16 exercise"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif"
+                        android:text="52 minutes"
+                        android:textSize="14sp" />
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:layout_width="185dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="8dp"
+                        android:fadingEdgeLength="20dp"
+                        android:layout_marginBottom="11dp"/>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="159dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="225dp"
+                    android:layout_marginEnd="24dp"
+                    android:src="@drawable/abs"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout04"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

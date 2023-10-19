@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.Chest.ADCW02">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textViewADCW02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:lineHeight="42.19px"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="19dp"
+            android:text="Exercise 1"
+            android:textFontWeight="700"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewADCW02"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewADCW02">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/chestExerciseVideo1ADCW02"
+                    android:layout_width="400dp"
+                    android:layout_height="300dp"
+                    android:elevation="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/textView67ADCW02"
+                    style="@style/subheading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clap Push up - 3 Sets of 8-10reps)"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/chestExerciseVideo1ADCW02" />
+
+                <TextView
+                    android:id="@+id/textView66ADCW02"
+                    android:layout_width="397dp"
+                    android:layout_height="650dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Start in a standard push up position. Get into an arm-supported position with your hands positioned beneath your shoulders and fingers spread slightly, ready to push. Engage the muscles of the core and lower back by tensing the abdominals to keep your body in one rigid line. Poise on the toes or balls of your feet to maintain balance throughout the movement.\nLower yourself until your chest is just above the floor. Bend the elbows to initiate the first part of the push up. Keep the elbows close the body and lower your weight in a smooth, controlled manner. The lowering portion of the push up should take between half a second to a full second; any longer will be using up strength and stability. Stop lowering yourself when your chest touches the floor, or just above it.\nPush! Reverse the motion by pushing hard through the palms. Again, focus on speed here. Imagine that you’re attempting to push yourself all the way up to a standing position. Keep your force consistent through every part of the push up.\nLet your hands leave the floor. Just as your arms reach full extension, pull your hands up off the floor. Timing of this part of the movement is crucial: if you time it right, you should feel like you’re floating for a brief moment. This is the interval during which you will perform the clap. If you find that you’re having trouble with your timing, continue feeling out the final part of the movement using the plyo push up.\nQuickly clap and reposition your hands. Once you’ve pushed your body up and your hands are off the floor, bring them together in one quick motion in front of the chest. Ideally, you should clap the hands together while hovering in the highest position of the “jump,” and be ready to plant them back down by the time you begin descending. Separate the hands and place them back underneath your shoulders, catching yourself as you fall."
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView67ADCW02" />
+
+                <Button
+                    android:id="@+id/chexSubmitadcw02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Mark as done"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView66ADCW02" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.Abs.AABSW1">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView72"
+            style="@style/workoutname"
+            android:layout_width="391dp"
+            android:layout_height="57dp"
+            android:text="1.V-sit Abs"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="376dp"
+            android:layout_height="306dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView72"
+            app:srcCompat="@drawable/v_sit_abs" />
+
+        <TextView
+            android:id="@+id/textView70"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="How to do v-sit abs"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="376dp"
+            android:layout_height="353dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="1.Seated on a mat, engage your core muscles and gently lean back a couple of inches. Slowly lift your legs up in the air so that are in a table-top position.
+              \n2.Reach your arms straight out in front of you so that they are parallel with the mat.
+               \n3.Keeping your core engaged, extend the legs straight up to a 45-degree angle, forming a “V” shape with your body.
+               \n4.If you feel balanced here, attempt reaching your arms up toward the ceiling. You always have the option to leave them straight out in front of you. Hold this position for 10 seconds. Keep the shoulders relaxed, abs pulled in and the inner thighs squeezing together.
+               \n5.Release your legs and arms down to the starting position."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="304dp"
+            android:text="NEXT"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView71" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icon_hotel"
+            android:title="Diet Plan" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Workout" />
+        <item
+            android:id="@+id/setRemainder"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:title="Remainder"/>
+
+        <item
+            android:id="@+id/bmiCalculator"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            android:title="BMI Calculator"/>
+
+        <item
+            android:id="@+id/blog"
+            android:icon="@drawable/ic_baseline_event_note_24"
+            android:title="Blogs"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Logout"/>
+
+    </group>
+</menu>

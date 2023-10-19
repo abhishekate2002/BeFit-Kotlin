@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "707463438936",
+    "project_id": "befit-ee1a3",
+    "storage_bucket": "befit-ee1a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707463438936:android:44d09b9c06ea64074e202d",
+        "android_client_info": {
+          "package_name": "com.example.befit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707463438936-nbfbmm0dusgo7vkq25vdj6p0o7l5vi7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTAb7Xp_2uzbW1gHmbU5d1Fp941MRscHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707463438936-nbfbmm0dusgo7vkq25vdj6p0o7l5vi7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707463438936:android:be22a606bbe61e664e202d",
+        "android_client_info": {
+          "package_name": "com.example.learningbefit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707463438936-nbfbmm0dusgo7vkq25vdj6p0o7l5vi7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTAb7Xp_2uzbW1gHmbU5d1Fp941MRscHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707463438936-nbfbmm0dusgo7vkq25vdj6p0o7l5vi7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

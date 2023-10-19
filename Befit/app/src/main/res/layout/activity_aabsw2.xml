@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workout.Abs.AABSW2">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView72"
+            style="@style/workoutname"
+            android:layout_width="391dp"
+            android:layout_height="57dp"
+            android:text="2.Dragon Flag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="376dp"
+            android:layout_height="306dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView72"
+            app:srcCompat="@drawable/dragon_flag" />
+
+        <TextView
+            android:id="@+id/textView70"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:text="How to do dragon flag"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="394dp"
+            android:layout_height="674dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="1.
+Lie down on a flat bench and grip the edge behind your head. Use a stable, flat weight bench and lie down on your back. Find the upper edge behind your head and grip it firmly with both hands so you’re anchored well to the bench.
+              \n2.Tighten all of your muscles to create tension in your body. Take a breath and brace your core muscles so your abs, hips, and chest are primed and ready to go. Flex your arms and legs so there’s tension all along your body and you’re ready to do the movement.
+               \n3.Lift your legs until your feet, legs, and torso form a straight line. Keeping your core tight and your muscles tense, start raising your legs up. Continue lifting them until your butt and lower back raise up. Keep your body in a straight line and raise your legs until your feet, legs, hips, and torso form a straight line and only your head and shoulders are on the bench or ground.
+               \n4.Pause at the top and then slowly lower your body back down. When you reach the top of the movement, maintain the tension in your body, and pause for a brief moment. Then, slowly lower your legs, hips, and back down to the bench or ground with control.
+               \n5.Repeat the movement up to 5 times. Keep your body braced and tense as you raise and lower yourself to do your dragon flags. Shoot for sets of 5 reps, but make sure you’re using good form. If your form starts to break down, call it a day to avoid potential injuries
+               \n6.Use an incline bench to make the movement more challenging. If you feel like the standard dragon flag is too easy (what are ya, crazy?), you can take it to the next level by doing them on an incline. Adjust a weight bench to so it’s at a 45-degree angle, lie down on it, and grip the upper edge above your head. Then, try out some super challenging dragon flags."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="304dp"
+            android:text="NEXT"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView71" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

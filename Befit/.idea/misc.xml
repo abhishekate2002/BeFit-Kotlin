@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/drawable/edit_bg.xml" value="0.203" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/font/poppins.xml" value="0.2578125" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_aabsw1.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_aabsw2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_aabsw3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_abicw1.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_abicw2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_abicw3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_abw1.xml" value="0.4" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_abw2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_abw3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_adcw01.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_adcw02.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_age18to25.xml" value="0.264" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_age26to30.xml" value="0.18340611353711792" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_age30to50.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ashow1.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ashow2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ashow3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_avcw01.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_avcw02.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_avcw03.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_babs1.xml" value="0.33015368309485954" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_babs2.xml" value="0.4" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_babs3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bbicw1.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bbicw2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bbicw3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bbw1.xml" value="0.3750752558699579" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bbw2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bbw3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bc1.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bcw1.xml" value="0.3026041666666667" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bcw2.xml" value="0.264" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bcw3.xml" value="0.4" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_blog_page.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bmi_calculator.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_break_f18to25.xml" value="0.264" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_break_f26to30.xml" value="0.11200000000000002" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_break_f31to50.xml" value="0.2" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bshow1.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bshow2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_bshow3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_destination.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_dinner18to25.xml" value="0.4" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_dinner26to30.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_dinner31to50.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_iabsw1.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_iabsw2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_iabsw3.xml" value="0.4" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ibicw1.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ibicw2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ibicw3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ibw1.xml" value="0.3639018691588785" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ibw2.xml" value="0.2" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ibw3.xml" value="0.14074074074074075" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ishow1.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ishow2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_ishow3.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_login.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_logout.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_lunch18to25.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_lunch26to30.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_lunch31to50.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_main.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_set_remainder.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_sign_up.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_workout_selector.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_workout_selector2.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/activity_workout_selector3.xml" value="0.1" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/forgot_password.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/fragment_diet_selector.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/fragment_gallery.xml" value="0.4" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/fragment_home.xml" value="0.536" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/layout/fragment_slideshow.xml" value="0.2" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/menu/activity_main_drawer.xml" value="0.4" />
+        <entry key="..\:/Users/abhishek/AndroidStudioProjects/Befit/app/src/main/res/menu/main.xml" value="0.21197916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

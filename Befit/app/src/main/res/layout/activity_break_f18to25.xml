@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diet.breakfast.BreakF18to25">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/heading"
+            android:layout_width="248dp"
+            android:layout_height="69dp"
+            android:text="Breakfast"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/subheading"
+            android:text="Consider any 1 or both of these as itme for your breakfast."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            style="@style/cardEat"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    style="@style/incardtext"
+                    android:text="Jamba Juice Protien"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="178dp"
+                    android:layout_height="161dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/jambajuice" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView5"
+            style="@style/cardDes"
+            android:layout_width="384dp"
+            android:layout_height="118dp"
+            android:layout_marginTop="18dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    style="@style/incardtext"
+                    android:layout_width="184dp"
+                    android:layout_height="118dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="1 packet instant oatmeal sprinkled with 1 tablespoon ground flaxseed"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView7"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="182dp"
+                    android:layout_height="271dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/oats" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView15"
+            style="@style/heading"
+            android:layout_width="387dp"
+            android:layout_height="38dp"
+            android:text="Key Nutrients You Need Now"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5" />
+
+        <TextView
+            android:id="@+id/textView16"
+            style="@style/footerText"
+            android:text="Protein: Protein helps keep you full and provides the building blocks so you can make and keep muscle. &quot;Recent studies suggest that, at a minimum, we need 60 to 70 grams of protein a day,&quot; says Leslie Bonci, M.P.H., R.D., director of sports medicine at the University of Pittsburgh Medical Center. Get your quota by eating skinless white meat poultry, lean steak, fish, eggs, beans, tofu, and low-fat dairy. "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView18"
+            style="@style/footerText"
+            android:layout_width="384dp"
+            android:layout_height="201dp"
+            android:text="Potassium: In order for your muscles and heart to function properly, you need to consume a hefty dose of potassium. But most women in the U.S. aged 20 to 39 get less than half the recommended amount, according to the USDA. Munching on 2 cups of fruit and 2 1/2 cups of veggies daily will help you get all the potassium you need."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView22"
+            style="@style/footerText"
+            android:layout_width="385dp"
+            android:layout_height="227dp"
+            android:text="Omega-3 fatty acids: These polyunsaturated fatty acids may boost serotonin, a feel-good chemical in your brain that research shows may be linked to depression when transmitted in low levels. Since women are twice as likely as men to be diagnosed with depression, start incorporating salmon and tuna into your diet, which are rich in omega-3s. You can also get your fill from walnuts, ground flaxseed, and canola oil."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView18" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
